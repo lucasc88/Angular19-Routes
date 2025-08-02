@@ -1,38 +1,59 @@
-![Buscante](thumbnail.png)
+# 4460Angular
 
-# Buscante
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
-Aplicação que permite pesquisar e descobrir livros utilizando a API do Google Books. 
+## Development server
 
-## 🔨 Funcionalidades do projeto
+To start a local development server, run:
 
-### Pesquisa de Livros:
+```bash
+ng serve
+```
 
-As pessoas podem inserir palavras-chave na barra de pesquisa para buscar livros de forma dinâmica.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-### Detalhes do Livro:
+## Code scaffolding
 
-Ao clicar em um livro específico pode-se obter mais detalhes, como título, sinopse, autoria e outras informações fornecidas pela API do Google Books.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-### Link para ler prévia do livro:
+```bash
+ng generate component component-name
+```
 
-Link com opção de ler uma prévia do livro.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-## ✔️ Técnicas e tecnologias utilizadas
+```bash
+ng generate --help
+```
 
-As técnicas e tecnologias utilizadas foram:
+## Building
 
-- `Angular`
-- `Google Books API`
-- `Lazy loading`
-- `RxJs`
+To build the project run:
 
-## 📁 Figma do projeto
+```bash
+ng build
+```
 
-Você pode [acessar o figma projeto Buscante](https://www.figma.com/community/file/1479537644248558705).
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## 🛠️ Abrir e rodar o projeto
+## Running unit tests
 
-Para abrir e rodar o projeto, execute *npm i* para instalar as dependências e *ng serve* para iniciar o projeto.
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-Depois, acesse [http://localhost:4200/](url) no seu navegador. 
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
